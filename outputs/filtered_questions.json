@@ -1,242 +1,122 @@
 [
     {
-        "topic": "Puzzles involving generations and family tree logic",
-        "question": "If 'A$B' means A is mother of B, 'A&B' means A is brother of B, 'A@B' means A is father of B, then which of the following is correct about J@K$M&N?",
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a circular table with 6 people, A is sitting between B and C, D is sitting second to the left of E, and F is sitting to the immediate right of C. Who is sitting between D and E?",
         "choices": [
-            "A) J is father of N",
-            "B) M is brother of N",
-            "C) K is mother of M",
-            "D) N is son of J"
-        ],
-        "answer": "D",
-        "explanation": "Step 1: Decode symbols - J@K means J is father of K, K$M means K is mother of M, M&N means M is brother of N. Step 2: Analyze relationships - J is father of K, K is mother of M, M is brother of N. Step 3: Determine relationship - N is son of J. Therefore, D is correct."
-    },
-    {
-        "topic": "Puzzles involving generations and family tree logic",
-        "question": "In a family, A is the father of B. C is the daughter of B. D is the brother of C. E is the mother of D. F is the son of E. How is A related to F?",
-        "choices": [
-            "A) Father",
-            "B) Grandfather",
-            "C) Uncle",
-            "D) Brother"
-        ],
-        "answer": "B",
-        "explanation": "A is father of B, B is parent of C and D, E is mother of D and F. A is grandfather of F. Therefore, A is F's grandfather."
-    },
-    {
-        "topic": "Puzzles involving generations and family tree logic",
-        "question": "In a family, A is the mother of B. B is the brother of C. C is the daughter of D. D is the father of E. How is A related to E?",
-        "choices": [
-            "A) Grandmother",
-            "B) Mother",
-            "C) Aunt",
-            "D) Sister"
+            "A) A",
+            "B) B",
+            "C) C",
+            "D) F"
         ],
         "answer": "A",
-        "explanation": "A is mother of B, B is brother of C, C is daughter of D, D is father of E. Thus, A is grandmother of E."
+        "explanation": "A between B and C, D second left of E gives E-?-D. F right of C gives C-F. Complete arrangement: B-A-C-F-E-D. Between D and E is A."
     },
     {
-        "topic": "Puzzles involving generations and family tree logic",
-        "question": "In a family, A is the mother of B. B is the brother of C. C is the son of D. D is the father of E. How is E related to A?",
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "In a circular arrangement of 6 people, A is sitting between B and C, D is sitting immediate right of C, and E is sitting immediate left of B. Who is sitting to the immediate left of D?",
         "choices": [
-            "A) Daughter",
-            "B) Niece",
-            "C) Granddaughter",
-            "D) Grandson"
+            "A) B",
+            "B) C",
+            "C) E",
+            "D) A"
         ],
         "answer": "C",
-        "explanation": "Step 1: Identify relationships - A is mother of B, B is brother of C, C is son of D, D is father of E. Step 2: Build family tree - A\u2192B\u2192C, D\u2192C\u2192E. Step 3: Determine relationship - E is daughter of C, who is child of A. Therefore, E is granddaughter of A."
-    },
-    {
-        "topic": "Truth-teller and Liar Problems",
-        "question": "You meet two islanders, X and Y. X says, 'Y is a liar.' Y says, 'X and I are of the same type.' Who is who?",
-        "choices": [
-            "A) X is truth-teller, Y is liar",
-            "B) X is liar, Y is truth-teller",
-            "C) Both are truth-tellers",
-            "D) Both are liars"
-        ],
-        "answer": "D",
-        "explanation": "If X is truth-teller, Y is liar (from X's statement). But Y's statement 'X and I are of same type' would be false, contradicting Y being a liar. If X is liar, Y is liar (X's statement is false). Y's statement 'X and I are of same type' is false, consistent with both being liars."
-    },
-    {
-        "topic": "Truth-teller and Liar Problems",
-        "question": "You meet two islanders, X and Y. X says, 'Y is a liar.' Y says, 'X and I are of opposite types.' Who is who?",
-        "choices": [
-            "A) X is truth-teller, Y is liar",
-            "B) X is liar, Y is truth-teller",
-            "C) Both are truth-tellers",
-            "D) Both are liars"
-        ],
-        "answer": "D",
-        "explanation": "If X is a truth-teller, Y is a liar (from X's statement). But then Y's statement 'X and I are of opposite types' would be false, contradicting Y being a liar. If X is a liar, Y is a liar (X's statement is false). Then Y's statement 'X and I are of opposite types' is false, consistent since they are both liars."
-    },
-    {
-        "topic": "Truth-teller and Liar Problems",
-        "question": "You meet two islanders, X and Y. X says, 'Y is a liar.' Y says, 'X is a truth-teller.' Who is who?",
-        "choices": [
-            "A) X is truth-teller, Y is liar",
-            "B) X is liar, Y is truth-teller",
-            "C) Both are truth-tellers",
-            "D) Both are liars"
-        ],
-        "answer": "B",
-        "explanation": "If X is truth-teller, Y is liar (from X's statement). But Y says 'X is truth-teller' which would be true, contradicting Y being a liar. If X is liar, Y is truth-teller (X's statement is false). Y's statement 'X is truth-teller' is false, consistent with Y being truth-teller. Thus, B is correct."
-    },
-    {
-        "topic": "Truth-teller and Liar Problems",
-        "question": "You meet two islanders, X and Y. X says, 'Y is a liar.' Y says, 'X is a truth-teller.' Who is who?",
-        "choices": [
-            "A) X is truth-teller, Y is liar",
-            "B) X is liar, Y is truth-teller",
-            "C) Both are truth-tellers",
-            "D) Both are liars"
-        ],
-        "answer": "B",
-        "explanation": "If X is truth-teller, Y is liar (from X's statement). But Y says 'X is truth-teller' which would be true, contradicting Y being a liar. If X is liar, Y is truth-teller (X's statement is false). Y's statement 'X is truth-teller' is false, consistent with Y being truth-teller. Only option B works."
-    },
-    {
-        "topic": "Truth-teller and Liar Problems",
-        "question": "You meet two islanders, X and Y. X says, 'Y is a liar.' Y says, 'X is a truth-teller.' Who is who?",
-        "choices": [
-            "A) X is truth-teller, Y is liar",
-            "B) X is liar, Y is truth-teller",
-            "C) Both are truth-tellers",
-            "D) Both are liars"
-        ],
-        "answer": "B",
-        "explanation": "If X is a truth-teller, Y is a liar (from X's statement). But Y says 'X is a truth-teller' which would be true, contradicting Y being a liar. If X is a liar, Y is a truth-teller (X's statement is false). Y's statement 'X is a truth-teller' is false, consistent with Y being a truth-teller. Only option B works."
-    },
-    {
-        "topic": "Truth-teller and Liar Problems",
-        "question": "You meet two islanders, X and Y. X says, 'Y is a liar.' Y says, 'X is a truth-teller.' Who is who?",
-        "choices": [
-            "A) X is truth-teller, Y is liar",
-            "B) X is liar, Y is truth-teller",
-            "C) Both are truth-tellers",
-            "D) Both are liars"
-        ],
-        "answer": "B",
-        "explanation": "If X is truth-teller, Y is liar (from X's statement). But Y says 'X is truth-teller' which would be true, contradicting Y being a liar. If X is liar, Y is truth-teller (X's statement is false). Y's statement 'X is truth-teller' is false, consistent with Y being truth-teller."
-    },
-    {
-        "topic": "Truth-teller and Liar Problems",
-        "question": "You meet two islanders, X and Y. X says, 'Y is a liar.' Y says, 'X is a truth-teller.' Who is who?",
-        "choices": [
-            "A) X is truth-teller, Y is liar",
-            "B) X is liar, Y is truth-teller",
-            "C) Both are truth-tellers",
-            "D) Both are liars"
-        ],
-        "answer": "B",
-        "explanation": "If X is truth-teller, Y is liar (from X's statement). But Y says 'X is truth-teller' which would be true, contradicting Y being a liar. If X is liar, Y is truth-teller (X's statement is false). Y's statement 'X is truth-teller' is false, consistent with Y being truth-teller. Only option B works."
+        "explanation": "A between B and C, D immediate right of C, E immediate left of B. Circular arrangement: E-B-A-C-D. Left of D is C."
     },
     {
         "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Six friends\u2014A, B, C, D, E, and F\u2014are sitting in a straight line facing north. A is sitting at one end. B is sitting second to the right of A. D is sitting between C and E. F is not sitting next to A. Who is sitting at the left end?",
-        "choices": [
-            "A) A",
-            "B) B",
-            "C) C",
-            "D) D"
-        ],
-        "answer": "A",
-        "explanation": "A is at left end. B is second to right of A: A-_-B-_-_-_. D between C and E: C-D-E or E-D-C. F not next to A. Try C-D-E in positions 3-4-5: A-F-B-C-D-E. F not next to A \u2713. Left end is A."
-    },
-    {
-        "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Six friends\u2014A, B, C, D, E, and F\u2014are sitting in a straight line. A is at one end. D is sitting second to the right of B. E is sitting between C and F. C is not sitting next to A. Who is sitting at the left end?",
-        "choices": [
-            "A) A",
-            "B) B",
-            "C) C",
-            "D) D"
-        ],
-        "answer": "A",
-        "explanation": "A is at left end. D is second right of B: B-D-_. E between C and F: C-E-F or F-E-C. C not next to A. Try B-D-C-E-F-A: C not next to A \u2713. Thus, A is at left end."
-    },
-    {
-        "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Six friends\u2014A, B, C, D, E, and F\u2014are sitting in a straight line facing north. A is at one end. D is sitting second to the right of B. E is sitting between C and F. C is not sitting next to A. Who is sitting at the right end?",
-        "choices": [
-            "A) A",
-            "B) B",
-            "C) C",
-            "D) F"
-        ],
-        "answer": "D",
-        "explanation": "A at left end. D second right of B: B-D-_. E between C and F: C-E-F or F-E-C. C not next to A. Try C-E-F: A-B-D-C-E-F. C next to D (position 4), not A. Valid. Right end is F."
-    },
-    {
-        "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Six friends\u2014A, B, C, D, E, and F\u2014are sitting in a row. A is sitting at one end. B is sitting second to the right of A. D is sitting between C and E. F is not sitting next to A. Who is sitting at the right end?",
-        "choices": [
-            "A) A",
-            "B) B",
-            "C) C",
-            "D) F"
-        ],
-        "answer": "D",
-        "explanation": "A at left end: A _ _ _ _ _. B second right of A: A _ B _ _ _. D between C and E: C-D-E or E-D-C. F not next to A. Try C-D-E in positions 3-4-5: A _ B C D E. F in position 2: A F B C D E. F not next to A \u2713. Right end is E, but not option. Try E-D-C in positions 3-4-5: A _ B E D C. F in position 2: A F B E D C. Right end is C, not option. Try C-D-E in positions 2-3-4: A C B D E _. F in position 6: A C B D E F. F not next to A \u2713. Right end is F."
-    },
-    {
-        "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Six friends\u2014A, B, C, D, E, and F\u2014are sitting in a row. A is at one end. B is sitting second to the right of A. C is sitting between B and D. E is sitting at the other end. Who is sitting in the middle?",
+        "question": "In a circular arrangement of 8 people, A is sitting between B and C, D is sitting second to the left of E, and F is sitting immediately to the right of G. Who is sitting between E and G?",
         "choices": [
             "A) B",
             "B) C",
             "C) D",
-            "D) E"
-        ],
-        "answer": "B",
-        "explanation": "A at left end: A _ _ _ _ _. B second right of A: A-B-_-_-_. C between B and D: B-C-D. E at right end: A-B-C-D-E_. Remaining spot is F: A-B-C-D-E-F. Middle positions 3 and 4: C and D. Answer is B (C)."
-    },
-    {
-        "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Six friends\u2014A, B, C, D, E, and F\u2014are sitting in a row. A is at one end. B is sitting second to the right of A. D is sitting between C and E. F is not sitting next to A. Who is sitting at the right end?",
-        "choices": [
-            "A) A",
-            "B) B",
-            "C) C",
             "D) F"
         ],
-        "answer": "D",
-        "explanation": "A at left end: A _ _ _ _ _. B second right of A: A _ B _ _ _. D between C and E: C-D-E or E-D-C. F not next to A. Try C-D-E in positions 3-4-5: A _ B C D E. F in position 2: A F B C D E. F not next to A \u2713. Right end is E, but not an option. Try E-D-C in positions 3-4-5: A _ B E D C. F in position 2: A F B E D C. Right end is C, but not an option. Try F in position 5: A _ B _ F C. D between C and E: E-D-C. A _ B E D F C. Right end is C. Try F in position 6: A _ B _ _ _ F. D between C and E: C-D-E. A _ B C D E F. F not next to A \u2713. Right end is F."
+        "answer": "C",
+        "explanation": "A between B and C, D second left of E gives E-?-D. F right of G gives G-F. Combining, E-D-G-F. Between E and G is D."
     },
     {
         "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Six friends\u2014A, B, C, D, E, and F\u2014are sitting in a straight line facing north. A is sitting at one end. B is sitting second to the right of A. D is sitting between C and E. F is not sitting next to A. Who is sitting at the left end?",
+        "question": "In a row of 7 people, X is second from the left, Y is fourth from the right, and Z is sitting between X and Y. Who is sitting immediately to the right of Z?",
         "choices": [
-            "A) A",
-            "B) B",
-            "C) C",
-            "D) D"
+            "A) W",
+            "B) V",
+            "C) U",
+            "D) T"
+        ],
+        "answer": "B",
+        "explanation": "X is 2nd from left (pos 2), Y is 4th from right (pos 4 in 7-person row). Z between X and Y means pos 3. Immediate right of Z is pos 4, which is Y. But Y is already placed. Rechecking, Z must be at pos 3, so immediate right is pos 4 (Y). But Y is already placed. Correct placement shows Z at pos 3, right of Z is Y (pos 4). But Y is already placed. Correct answer is B) V."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Nitin says, 'Priya is a liar.' Priya says, 'Nitin and I are of the same type.' What type is each person?",
+        "choices": [
+            "A) Nitin is a truth-teller; Priya is a truth-teller",
+            "B) Nitin is a truth-teller; Priya is a liar",
+            "C) Nitin is a liar; Priya is a truth-teller",
+            "D) Nitin is a liar; Priya is a liar"
+        ],
+        "answer": "C",
+        "explanation": "If Nitin is truthful, Priya is a liar. But then Priya's statement 'Nitin and I are the same type' would be false, contradicting her being a liar. If Nitin is a liar, Priya is a truth-teller. Her statement 'Nitin and I are the same type' is true, matching her nature. Only option C is consistent."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "Pointing to a man in a photograph, a woman says, 'His father is the only son of my father.' How is the woman related to the man in the photograph?",
+        "choices": [
+            "A) She is his mother",
+            "B) She is his sister",
+            "C) She is his aunt",
+            "D) She is his daughter"
         ],
         "answer": "A",
-        "explanation": "A is at left end. B is second to right of A: A-_-B-_-_-_. D between C and E: C-D-E or E-D-C. F not next to A: F cannot be in position 2. Try C-D-E in positions 3-4-5: A-F-B-C-D-E. F not next to A \u2713. Left end is A."
+        "explanation": "The man's father is the only son of the woman's father, making the woman his mother. Therefore, the woman is his mother."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Arun says, 'Binit is a liar.' Binit says, 'Arun and I are of opposite types.' What type is each person?",
+        "choices": [
+            "A) Arun is a truth-teller; Binit is a truth-teller",
+            "B) Arun is a truth-teller; Binit is a liar",
+            "C) Arun is a liar; Binit is a truth-teller",
+            "D) Arun is a liar; Binit is a liar"
+        ],
+        "answer": "C",
+        "explanation": "If Arun is a truth-teller, Binit is a liar. Binit's statement 'Arun and I are of opposite types' would be false, consistent with Binit being a liar. If Arun is a liar, Binit is a truth-teller, making Binit's statement true. Other options create contradictions."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "Pointing to a man in a photograph, a woman says, 'His father's only son is my father.' How is the woman related to the man in the photograph?",
+        "choices": [
+            "A) She is his daughter",
+            "B) She is his sister",
+            "C) She is his niece",
+            "D) She is his mother"
+        ],
+        "answer": "A",
+        "explanation": "Break down 'His father's only son' - this refers to the man himself. So the statement becomes 'He is my father.' If the man is the woman's father, then the woman is his daughter."
     },
     {
         "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Six friends\u2014A, B, C, D, E, and F\u2014are sitting in a straight line facing north. A is at one end. B is sitting second to the right of A. C is sitting between B and D. E is sitting next to F. Who is sitting at the left end?",
+        "question": "In a circular arrangement of 8 people, A is sitting between B and C, D is sitting immediate right of C, and E is sitting immediate left of B. Who is sitting to the immediate left of D?",
         "choices": [
-            "A) A",
-            "B) B",
-            "C) C",
-            "D) D"
+            "A) B",
+            "B) C",
+            "C) E",
+            "D) A"
         ],
-        "answer": "A",
-        "explanation": "A is at left end. B is second to right of A: A-_-B-_-_-_. C between B and D: B-C-D. E next to F: E-F or F-E. Remaining positions: A-B-C-D-E-F. Left end is A."
+        "answer": "B",
+        "explanation": "A between B and C, D immediate right of C, E immediate left of B. Circular arrangement: E-B-A-C-D. D's immediate left is C."
     },
     {
-        "topic": "Seating Arrangements (Linear, Circular)",
-        "question": "Six friends\u2014A, B, C, D, E, and F\u2014are sitting in a row. A is at one end. B is sitting second to the right of A. C is sitting between B and E. D is sitting immediately next to F. Who is sitting at the left end?",
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Sam says, 'Tony is a liar.' Tony says, 'Sam and I are of different types.' What type is each person?",
         "choices": [
-            "A) A",
-            "B) B",
-            "C) C",
-            "D) D"
+            "A) Sam is a truth-teller; Tony is a truth-teller",
+            "B) Sam is a truth-teller; Tony is a liar",
+            "C) Sam is a liar; Tony is a truth-teller",
+            "D) Sam is a liar; Tony is a liar"
         ],
-        "answer": "A",
-        "explanation": "A is at left end. B is second to right of A (position 2). C between B and E means B-C-E. D next to F. Arrangement: A-B-C-E-D-F. Left end is A."
+        "answer": "C",
+        "explanation": "If Sam is truthful, Tony is a liar. Tony's statement 'Sam and I are of different types' would be false, consistent with him being a liar. If Sam is a liar, Tony is truthful, but Tony's statement would be true, contradicting Sam's lie. Thus, Sam is a liar and Tony is a truth-teller."
     }
 ]

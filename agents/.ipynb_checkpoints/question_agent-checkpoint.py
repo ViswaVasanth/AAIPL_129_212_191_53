@@ -64,6 +64,8 @@ MANDATORY APPROACH:
 - Verify your question solves identically to your chosen template
 
 QUALITY STANDARD: Someone should be able to overlay your question with an In context learning example and see identical logical DNA - only names and numbers should differ.
+DIVERSITY MANDATE: No two questions you generate should be exactly same. ALWAYS VERIFY THIS
+
 
 Remember: Template adherence = Success. Creative deviation = Failure.
 ALWAYS THINK STEP BY STEP"""
@@ -79,6 +81,7 @@ ALWAYS THINK STEP BY STEP"""
         
         tmpl = (
             "ALWAYS THINK STEP BY STEP"
+    
             'CRITICAL: Generate ONLY valid JSON. Invalid JSON = DISQUALIFIED.\n\n'
             
             '🎯 EXCELLENCE THROUGH TEMPLATE MASTERY:\n'
@@ -125,6 +128,8 @@ ALWAYS THINK STEP BY STEP"""
             '- Use LESS people maximum for solvability\n'
             '   - Avoid paradoxes unless intentionally testing them\n'
             '   - Verify logical consistency of all statements\n\n'
+            "DIVERSITY MANDATE: No two questions you generate should be exactly same. ALWAYS VERIFY THIS"
+
             
             
             '{examples}\n\n'
@@ -275,7 +280,7 @@ ALWAYS THINK STEP BY STEP"""
         selected_topics = random.choices(all_subtopics, k=num_questions)
         
         # Sort by topic name to group same topics together in batches
-        selected_topics.sort(key=lambda x: x[0])
+        #selected_topics.sort(key=lambda x: x[0])
         
         return selected_topics
 

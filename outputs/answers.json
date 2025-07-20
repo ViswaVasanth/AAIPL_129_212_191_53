@@ -1,82 +1,82 @@
 [
     {
-        "answer": "D",
-        "reasoning": "A is the mother of B, and B is the brother of C. D is the father of C, making A the grandmother of C. Since E is D's daughter, A is also E's grandmother."
+        "answer": "B",
+        "reasoning": "To solve, start by arranging the people around the circular table. Since it's circular, we can fix one person's position. Let's fix F at position 1. A is to the right of F, so A is at position 2. D is immediately to the right of E, so E and D are adjacent. B and C are on either side of A. The only position left for D is position 5, making E position 4. The person opposite D (position 5) is position 2, which is A. But A is not an option. Rechecking, D is at position 5, opposite is position 2 (A), but A is not an option. Correct arrangement shows D is opposite B. \n\n"
+    },
+    {
+        "answer": "A",
+        "reasoning": "To determine who is sitting to the immediate left of A, we arrange the people based on the given clues. A is between B and C, so the order is B-A-C or C-A-B. D is to the immediate right of C, so if the order is C-A-B, then D must be to the right of C, making the order C-A-B-D. E is to the immediate left of B, so E must be to the left of B, making the order E-B-A-C-D. F is between D and E, so the order is E-F-D. Combining all, the arrangement is E-F-D-C-A-B. Thus, the immediate left of A is B.\n\n"
+    },
+    {
+        "answer": "C",
+        "reasoning": "To solve this, we need to arrange the 8 people in a circle based on the given clues. Let's place the people in a circular arrangement:\n\n1. A is between B and C \u2192 B-A-C or C-A-B.\n2. D is second to the left of E \u2192 D-E (with one person between them).\n3. F is immediately to the right of G \u2192 G-F.\n\nFrom the clues, we can deduce the arrangement. Based on the constraints, the person immediately to the left of F is D. \n\n"
+    },
+    {
+        "answer": "A",
+        "reasoning": "The statement \"His mother's only son is my father\" implies that the woman's father is the man's father. Therefore, the woman is the man's daughter. \n\n"
+    },
+    {
+        "answer": "C",
+        "reasoning": "1. Analyze each option: If Ravi is a truth-teller, then Sita is a liar. If Sita is a liar, her statement \"Ravi and I are of opposite types\" is false, meaning they are of the same type. This contradicts Ravi being a truth-teller and Sita a liar. If Ravi is a liar, then Sita is a truth-teller. If Sita is a truth-teller, her statement \"Ravi and I are of opposite types\" is true, matching Ravi being a liar and Sita a truth-teller.  \n2. Eliminate incorrect choices: Option C fits logically.  \n3. Select the correct answer: C  \n4. Reasoning: If Ravi is a liar, his statement that Sita is a liar is false, making Sita a truth-teller. Sita's true statement that they are of opposite types matches Ravi being a liar and Sita a truth-teller.  \n"
     },
     {
         "answer": "B",
-        "reasoning": "A is the mother of B, and B is the brother of C, making A the mother of C. C is the daughter of D, and D is the father of E. Thus, A is the grandmother of E."
-    },
-    {
-        "answer": "A",
-        "reasoning": "A is the mother of B, and D is the father of C (B's brother). Since E is D's daughter and F is E's son, F is the nephew of B. As A is B's mother, she is F's grandmother."
-    },
-    {
-        "answer": "B",
-        "reasoning": "A is B's father, and D is C's brother. Since C and D are B's children, D's parent (E) is B's wife. F is E's son, making A F's grandfather."
-    },
-    {
-        "answer": "C",
-        "reasoning": "E is D's wife, and D is C's parent. Since A is B's mother and B is C's brother, A is also C's mother. Thus, E is A's daughter."
-    },
-    {
-        "answer": "A",
-        "reasoning": "A is the mother of B, and D is the father of C (B's brother). Since E is the son of D and F is the daughter of E, F is the child of D and E. As A is B's mother and B is C's sibling, A is F's grandmother."
-    },
-    {
-        "answer": "A",
-        "reasoning": "A is the mother of B, and D is the father of C (B's brother). Since E is D's daughter and F is E's son, F is the nephew of B. As A is B's mother, she is F's grandmother."
-    },
-    {
-        "answer": "C",
-        "reasoning": "A is the mother of B, and B is the brother of C, making A the mother of C. C is the son of D, and D is the father of E. Thus, E is the grandchild of A, making E A's granddaughter."
-    },
-    {
-        "answer": "C",
-        "reasoning": "E is D's wife, and D is C's parent. Since A is B's mother and B is C's brother, A is also C's mother. Thus, E is A's daughter."
+        "reasoning": "To determine the arrangement, start with A between B and C. D is to the right of C, and E is to the left of B. Placing B and C with A between them, and D to the right of C, E to the left of B, the order becomes E, B, A, C, D. The person to the left of D is C. \n\n"
     },
     {
         "answer": "D",
-        "reasoning": "A is B's mother, C is B's brother, D is C's father, so D is also B's father. E is D's daughter, F is E's son. Therefore, F is the son of B's father, making A F's grandmother. However, since A is B's mother and F is E's son, A is not directly related to F. Thus, A is F's cousin."
+        "reasoning": "To solve, place the people around a circular table. Start with A between B and C. F is immediately to the right of A, so the order is B-A-F-C. D is second to the left of E, so D-E must be two positions apart. The only position left for D is between F and B, making E sit between C and D. Thus, the person to the left of D is F. \n\n"
     },
     {
         "answer": "B",
-        "reasoning": "If X is a truth-teller, then Y is a liar. But Y says X is a truth-teller, which would be true if Y is a liar, creating a contradiction. If X is a liar, then Y is a truth-teller. Y's statement that X is a truth-teller would be false, which is consistent with X being a liar. Thus, B is correct."
+        "reasoning": "To solve this, we arrange the people in a circle. Given: A is between B and C, so B-A-C or C-A-B. D is to the right of C, so C-D. E is to the left of B, so E-B. Combining these: E-B-A-C-D. The immediate left of D is C. \n\n"
     },
     {
-        "answer": "B",
-        "reasoning": "If X is a truth-teller, then Y is a liar. But if Y is a liar, then Y's statement that X is a truth-teller would be false, making X a liar, which contradicts. If X is a liar, then Y is a truth-teller. Y's statement that X is a truth-teller would then be false, which is consistent with X being a liar. Thus, B is correct."
-    },
-    {
-        "answer": "B",
-        "reasoning": "If X is a truth-teller, then Y is a liar. But if Y is a liar, then Y's statement that X is a truth-teller would be false, making X a liar, which contradicts. If X is a liar, then Y is a truth-teller. Y's statement that X is a truth-teller would then be false, which is consistent with X being a liar. Thus, B is correct."
-    },
-    {
-        "answer": "B",
-        "reasoning": "If X is a truth-teller, Y would be a liar, but Y's statement would then be false, contradicting Y being a liar. If X is a liar, Y's statement 'X and I are of the same type' is true, making Y a truth-teller. This is consistent."
-    },
-    {
-        "answer": "B",
-        "reasoning": "If X is a truth-teller, Y would be a liar, but Y's statement would then be false, implying X and Y are not the same type, contradicting X's truthful statement. If X is a liar, Y's statement is true, meaning both are liars, which is a contradiction. Thus, X is a liar and Y is a truth-teller."
-    },
-    {
-        "answer": "B",
-        "reasoning": "If X is a truth-teller, then Y is a liar. But Y says X is a truth-teller, which would be true if Y is a liar, creating a contradiction. If X is a liar, then Y is a truth-teller, which matches Y's statement. Thus, B is correct."
-    },
-    {
-        "answer": "B",
-        "reasoning": "If X is a truth-teller, then Y is a liar. But Y says X is a truth-teller, which would be true if Y is a liar, creating a contradiction. If X is a liar, then Y is a truth-teller. Y's statement that X is a truth-teller would be false, which is consistent with X being a liar. Thus, B is correct."
-    },
-    {
-        "answer": "B",
-        "reasoning": "If X is a liar (B), then Y is a liar (as X says 'Y is a liar'). Y says 'X and I are of opposite types', which would be false if both are liars. This is consistent. If X were truthful (A), Y would be a liar, but Y's statement would then be true, which is a contradiction. C and D are invalid as they imply both are truth-tellers or both are liars, which contradicts the statements."
-    },
-    {
-        "answer": "B",
-        "reasoning": "If X is a truth-teller, then Y is a liar. But if Y is a liar, then Y's statement that X is a truth-teller would be false, making X a liar, a contradiction. If X is a liar, then Y is a truth-teller. Y's statement that X is a truth-teller would then be false, which is consistent with X being a liar. Thus, B is correct."
+        "answer": "A",
+        "reasoning": "The statement \"He is the son of the only son of my father\" means the man is the son of the woman's father. Therefore, the woman is the daughter of the man's father, making her the man's mother. \n\n"
     },
     {
         "answer": "C",
-        "reasoning": "A is at one end, B is next to A, so A and B are at positions 1 and 2. C is between D and E, so D and E must be at positions 3 and 4 or 4 and 3. F is not at the ends, so F must be at position 3 or 4. The only position that fits all constraints is position 3 for C."
+        "reasoning": "To solve this, we need to arrange the 7 people in a circle based on the given clues. Let's assume positions 1 through 7 in a circle. \n\n- A is between B and C \u2192 B-A-C or C-A-B.\n- D is second to the left of E \u2192 D is two positions counterclockwise from E.\n- F is immediately to the right of G \u2192 G-F.\n\nBy testing possible arrangements, the only valid configuration that satisfies all conditions places E and G with D between them. Thus, the person between E and G is D.\n\n"
+    },
+    {
+        "answer": "C",
+        "reasoning": "1. Analyze each option: If Nitin is a truth-teller, then Priya is a liar. If Priya is a liar, her statement \"Nitin and I are of different types\" is false, meaning they are of the same type. This contradicts Nitin being a truth-teller and Priya a liar. If Nitin is a liar, his statement \"Priya is a liar\" is false, so Priya is a truth-teller. Priya's statement \"Nitin and I are of different types\" would then be true, matching Nitin being a liar and Priya a truth-teller.  \n2. Eliminate incorrect choices: Option C fits logically.  \n3. Select the correct answer: C  \n4. Reasoning: If Nitin is a liar, Priya is a truth-teller, and their statements are consistent.  \n"
+    },
+    {
+        "answer": "D",
+        "reasoning": "To solve the problem, we arrange the people around the circular table based on the given clues. Starting with A between B and C, and D to the immediate right of C, we place D next to C. E is to the immediate left of B, so B is to the right of E. By placing these in order, we find that E is to the immediate left of D. \n\n"
+    },
+    {
+        "answer": "C",
+        "reasoning": "To solve this, we arrange the people around the circular table. Given F is immediately to the left of A, and A is between B and C, the order around the table could be: F, A, B, C, D, E (with D immediately to the right of E). Thus, D is next to E, and F is next to A. The person between D and F is E. \n\n"
+    },
+    {
+        "answer": "B",
+        "reasoning": "The statement \"His father's only son is my father\" implies that the woman's father is the man's father. Therefore, the woman is the daughter of the man's father, making her the man's sister. \n\n"
+    },
+    {
+        "answer": "B",
+        "reasoning": "To solve the circular arrangement, start by placing the known relationships. A is between B and C, so the order is B-A-C or C-A-B. D is to the right of C, so D is next to C. E is to the left of B, so E is next to B. The only arrangement that fits all conditions is E-B-A-C-D. Thus, the person to the left of D is C.  \n\n"
+    },
+    {
+        "answer": "B",
+        "reasoning": "The woman says, \"His father's only daughter is my mother.\" This means the woman's mother is the daughter of the man in the photograph, making the woman the daughter of the man's mother. Thus, the woman is the man's sister.  \n\n"
+    },
+    {
+        "answer": "C",
+        "reasoning": "1. Analyze each option: If Sam is a truth-teller (A or B), then Tony is a liar. If Tony is a liar (A or D), then his statement is false, meaning Sam and Tony are not of different types. If Sam is a liar (C or D), then Tony is a truth-teller.  \n2. Eliminate incorrect choices: If Sam is a truth-teller (A or B), Tony is a liar. If Tony is a liar, his statement is false, so Sam and Tony are the same type. This contradicts Sam being a truth-teller. If Sam is a liar (C or D), Tony is a truth-teller. Tony's statement is true, so Sam and Tony are of different types. This is consistent.  \n3. Select the correct answer: C is consistent.  \n4. Reasoning: If Sam is a liar, his statement is false, so Tony is not a liar. If Tony is a truth-teller, his statement is true, so Sam and Tony are of different types. This matches.  \n"
+    },
+    {
+        "answer": "B",
+        "reasoning": "To determine how many people are between X and Y, first find their positions from the left. X is 3rd from the left. Y is 5th from the right, which is 8 - 5 + 1 = 4th from the left. The positions are 3 and 4, so there are 0 people between them. However, this contradicts the question's setup. Correct calculation: Y is 5th from the right, so 8 - 5 + 1 = 4th from the left. X is 3rd from the left. The positions are 3 and 4, so there are 0 people between them. The correct answer is B) 3. \n\n"
+    },
+    {
+        "answer": "C",
+        "reasoning": "1. Analyze each option: If Nitin is a truth-teller, then Priya is a liar. If Priya is a liar, her statement that \"Nitin and I are of opposite types\" is false, meaning they are of the same type. This contradicts Nitin being a truth-teller and Priya a liar. If Nitin is a liar, his statement that \"Priya is a liar\" is false, so Priya is a truth-teller. Priya's statement that \"Nitin and I are of opposite types\" would then be true, matching Nitin being a liar and Priya a truth-teller.  \n2. Eliminate incorrect choices: Options A and B lead to contradictions. Option D would mean both are liars, making Priya's statement false, which would mean they are not of opposite types, contradicting her being a liar.  \n3. Select the correct answer: Option C is consistent.  \n4. Reasoning: Nitin is a liar, so Priya is a truth-teller. Priya's statement that they are of opposite types is true.  \n5. Final Answer: C  \n\n"
+    },
+    {
+        "answer": "A",
+        "reasoning": "The statement \"His father's only son is my father\" implies that the woman's father is the man's father, making the woman the daughter of the man's father. Therefore, the woman is the man's daughter. \n\n"
     }
 ]
