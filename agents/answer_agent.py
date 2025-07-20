@@ -57,7 +57,7 @@ class AnsweringAgent(object):
         return prompt, sys_prompt1 if self.select_prompt1 else sys_prompt2
 
     def extract_json(self, answer):
-        answer_json ={"answer": 'C', "reasoning": ''}
+        answer_json ={"answer": 'A', "reasoning": ''}
         if "FINAL ANSWER:" in answer:
             answer_json['answer'] = answer.split('FINAL ANSWER:')[1].strip()
             answer_json['reasoning'] = answer.split('FINAL ANSWER:')[0]
