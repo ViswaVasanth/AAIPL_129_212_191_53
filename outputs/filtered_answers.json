@@ -1,0 +1,82 @@
+[
+    {
+        "answer": "D",
+        "reasoning": "A is the mother of B, and B is the brother of C. D is the father of C, making A the grandmother of C. Since E is D's daughter, A is also E's grandmother."
+    },
+    {
+        "answer": "B",
+        "reasoning": "A is the mother of B, and B is the brother of C, making A the mother of C. C is the daughter of D, and D is the father of E. Thus, A is the grandmother of E."
+    },
+    {
+        "answer": "A",
+        "reasoning": "A is the mother of B, and D is the father of C (B's brother). Since E is D's daughter and F is E's son, F is the nephew of B. As A is B's mother, she is F's grandmother."
+    },
+    {
+        "answer": "B",
+        "reasoning": "A is B's father, and D is C's brother. Since C and D are B's children, D's parent (E) is B's wife. F is E's son, making A F's grandfather."
+    },
+    {
+        "answer": "C",
+        "reasoning": "E is D's wife, and D is C's parent. Since A is B's mother and B is C's brother, A is also C's mother. Thus, E is A's daughter."
+    },
+    {
+        "answer": "A",
+        "reasoning": "A is the mother of B, and D is the father of C (B's brother). Since E is the son of D and F is the daughter of E, F is the child of D and E. As A is B's mother and B is C's sibling, A is F's grandmother."
+    },
+    {
+        "answer": "A",
+        "reasoning": "A is the mother of B, and D is the father of C (B's brother). Since E is D's daughter and F is E's son, F is the nephew of B. As A is B's mother, she is F's grandmother."
+    },
+    {
+        "answer": "C",
+        "reasoning": "A is the mother of B, and B is the brother of C, making A the mother of C. C is the son of D, and D is the father of E. Thus, E is the grandchild of A, making E A's granddaughter."
+    },
+    {
+        "answer": "C",
+        "reasoning": "E is D's wife, and D is C's parent. Since A is B's mother and B is C's brother, A is also C's mother. Thus, E is A's daughter."
+    },
+    {
+        "answer": "D",
+        "reasoning": "A is B's mother, C is B's brother, D is C's father, so D is also B's father. E is D's daughter, F is E's son. Therefore, F is the son of B's father, making A F's grandmother. However, since A is B's mother and F is E's son, A is not directly related to F. Thus, A is F's cousin."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If X is a truth-teller, then Y is a liar. But Y says X is a truth-teller, which would be true if Y is a liar, creating a contradiction. If X is a liar, then Y is a truth-teller. Y's statement that X is a truth-teller would be false, which is consistent with X being a liar. Thus, B is correct."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If X is a truth-teller, then Y is a liar. But if Y is a liar, then Y's statement that X is a truth-teller would be false, making X a liar, which contradicts. If X is a liar, then Y is a truth-teller. Y's statement that X is a truth-teller would then be false, which is consistent with X being a liar. Thus, B is correct."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If X is a truth-teller, then Y is a liar. But if Y is a liar, then Y's statement that X is a truth-teller would be false, making X a liar, which contradicts. If X is a liar, then Y is a truth-teller. Y's statement that X is a truth-teller would then be false, which is consistent with X being a liar. Thus, B is correct."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If X is a truth-teller, Y would be a liar, but Y's statement would then be false, contradicting Y being a liar. If X is a liar, Y's statement 'X and I are of the same type' is true, making Y a truth-teller. This is consistent."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If X is a truth-teller, Y would be a liar, but Y's statement would then be false, implying X and Y are not the same type, contradicting X's truthful statement. If X is a liar, Y's statement is true, meaning both are liars, which is a contradiction. Thus, X is a liar and Y is a truth-teller."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If X is a truth-teller, then Y is a liar. But Y says X is a truth-teller, which would be true if Y is a liar, creating a contradiction. If X is a liar, then Y is a truth-teller, which matches Y's statement. Thus, B is correct."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If X is a truth-teller, then Y is a liar. But Y says X is a truth-teller, which would be true if Y is a liar, creating a contradiction. If X is a liar, then Y is a truth-teller. Y's statement that X is a truth-teller would be false, which is consistent with X being a liar. Thus, B is correct."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If X is a liar (B), then Y is a liar (as X says 'Y is a liar'). Y says 'X and I are of opposite types', which would be false if both are liars. This is consistent. If X were truthful (A), Y would be a liar, but Y's statement would then be true, which is a contradiction. C and D are invalid as they imply both are truth-tellers or both are liars, which contradicts the statements."
+    },
+    {
+        "answer": "B",
+        "reasoning": "If X is a truth-teller, then Y is a liar. But if Y is a liar, then Y's statement that X is a truth-teller would be false, making X a liar, a contradiction. If X is a liar, then Y is a truth-teller. Y's statement that X is a truth-teller would then be false, which is consistent with X being a liar. Thus, B is correct."
+    },
+    {
+        "answer": "C",
+        "reasoning": "A is at one end, B is next to A, so A and B are at positions 1 and 2. C is between D and E, so D and E must be at positions 3 and 4 or 4 and 3. F is not at the ends, so F must be at position 3 or 4. The only position that fits all constraints is position 3 for C."
+    }
+]

@@ -1,0 +1,65 @@
+[
+    null,
+    {
+        "answer": "D",
+        "reasoning": "Assume D is a truth-teller. Then A is a truth-teller (as D says 'A is a truth-teller'). Now A says 'B is a liar' and B says 'C is a truth-teller'. If A is truthful, B is a liar, making B's statement false, so C is a liar. This gives us two truth-tellers (A and D) and two liars (B and C), satisfying the condition. Thus, the truth-tellers are A and D."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi is the son of Arun's only sister, making Ravi Arun's cousin. Suman's only son is married to Lata, and Lata is the sister-in-law of Ravi's mother. Since Ravi's mother is Arun's aunt, Lata is the sister-in-law of Arun's aunt, making her Arun's sister-in-law."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Ravi is the son of Suman's only sister, making Ravi and Suman siblings. Suman's father is married to Ravi's maternal grandmother's daughter, confirming they are related through the same grandmother. Ravi's mother is the daughter of Ravi's paternal grandfather's only son, indicating Ravi and Suman share a common grandparent. Thus, Ravi is Suman's cousin."
+    },
+    {
+        "answer": "C",
+        "reasoning": "Assume Z is the truth-teller. Then X is a truth-teller and Y is a liar. But this contradicts the assumption that Z is the only truth-teller. If Y is the truth-teller, then X and Z are liars, but Y says X is a liar and Z is a liar, which would make Y's statement true, but Z's statement would be false. If X is the truth-teller, then Y is a liar and Z is a truth-teller, which contradicts the condition. Thus, Z must be the truth-teller, and the others are liars, satisfying the condition of exactly one truth-teller."
+    },
+    null,
+    {
+        "answer": "A",
+        "reasoning": "Sita's father is Mohan's only son, making Sita and Mohan's daughter siblings. Ravi is Sita's brother, so he is the cousin of Mohan's only daughter. Thus, Ravi is the cousin of the wife of Mohan's only daughter."
+    },
+    {
+        "answer": "A",
+        "reasoning": "B is the maternal uncle of F, meaning B is the brother of F's mother. E is the mother of F, so B is the brother of E. C is the daughter of D's only brother, so D is the parent of C's sibling. J is the paternal aunt of I, meaning J is the sister of I's father. H is the father of I, so J is the sister of H. K is the brother of L, who is the son of M. A is the son of B's only sister, so A is the brother of B's sibling. Since B is the brother of E, and E is the mother of F, A is the cousin of F. Therefore, A is the cousin of K."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the clues, A is between B and G, and B is two seats to the right of G. This places G, B, A in order. C is two seats to the left of E, and D is opposite F. By placing the people around the table, D ends up next to both C and E. Thus, D is the correct answer."
+    },
+    {
+        "answer": "B",
+        "reasoning": "Assume P is a truth-teller. Then Q is a liar. If Q is a liar, then R is not a truth-teller. If R is a liar, then P is not a liar, which contradicts the assumption. So P must be a liar. If P is a liar, then Q is not a liar, so Q is a truth-teller. If Q is a truth-teller, then R is a truth-teller. But R says P is a liar, which is true. So Q and R are truth-tellers, and P is a liar. Thus, there is 1 truth-teller."
+    },
+    {
+        "answer": "C",
+        "reasoning": "If R is the truth-teller, then R's statement 'P is a liar' is true, making P a liar. P's statement 'Q is a liar' would then be a lie, making Q a truth-teller. But this contradicts the condition that only one is a truth-teller. Re-evaluating, if Q is the truth-teller, then R is a truth-teller, contradicting the condition. If P is the truth-teller, then Q is a liar, making R a truth-teller, again a contradiction. Thus, the only consistent scenario is if R is the truth-teller, making P and Q liars, satisfying the condition of exactly one truth-teller."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the clues, K is between D and F, and F is two seats left of G. D is opposite E. I is two seats right of J, who is not adjacent to A. A is between B and C. By placing A between B and C, and considering the circular arrangement, D ends up directly opposite A based on the constraints and logical deductions."
+    },
+    {
+        "answer": "D",
+        "reasoning": "The person described as 'the son-in-law of my mother's only sister' is Ravi's uncle. This is because the mother's sister is Ravi's aunt, and her son-in-law would be Ravi's uncle. The other relationships do not fit the family connections described in the question."
+    },
+    {
+        "answer": "A",
+        "reasoning": "If P is a truth-teller, then Q is a liar. If Q is a liar, then R is not a truth-teller. If R is a liar, then P is not a liar, which contradicts P being a truth-teller. Thus, P must be a liar. If P is a liar, then Q is not a liar, so Q is a truth-teller. If Q is a truth-teller, then R is a truth-teller. If R is a truth-teller, then P is a liar, which is consistent. Thus, only Q and R are truth-tellers, but this contradicts R's statement. Therefore, only Q is a truth-teller. Hence, the answer is 1."
+    },
+    {
+        "answer": "D",
+        "reasoning": "From the clues, B is two seats left of C, and I is two seats right of B. G is between H and I, and D is between E and H. Since A is opposite F, and G is between H and I, H must be opposite E. Thus, D is directly opposite E."
+    },
+    {
+        "answer": "A",
+        "reasoning": "Sita's father is Mohan's only son, making Sita and Ravi cousins. Ravi's paternal grandfather is Mohan, and his only daughter is Sita. The son of Mohan's only daughter is Ravi's cousin. Thus, Ravi is the nephew of the son of Mohan's only daughter."
+    },
+    null,
+    {
+        "answer": "C",
+        "reasoning": "Assume C is the truth-teller. Then A is a truth-teller (per C's statement), but this contradicts the condition that only one is a truth-teller. If B is the truth-teller, then A is a liar or C is a liar. If A is a liar, then B is not a liar and C is not a truth-teller, which fits. Thus, B being truthful leads to A being a liar and C being a liar, satisfying the condition. Hence, B is the truth-teller. However, this contradicts the initial assumption. Therefore, C must be the truth-teller, making A and B liars, which fits the condition. Thus, the correct answer is C."
+    }
+]

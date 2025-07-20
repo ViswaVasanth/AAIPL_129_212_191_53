@@ -1,0 +1,14 @@
+[
+    {
+        "topic": "Blood Relations and Family Tree",
+        "question": "Introducing a woman, a man said, “Her husband is the only son of my father”. How is that woman related to the man?",
+        "choices": [
+            "A) Husband",
+            "B) Sister",
+            "C) Wife",
+            "D) Mother"
+        ],
+        "answer": "C",
+        "explanation": " Here, the man’s father has only one son, who is the husband of that woman, i.e. the man himself is her husband. Hence, the answer is Wife."
+    }
+]
