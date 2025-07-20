@@ -10,38 +10,38 @@ GITHUB_USERNAME="ViswaVasanth"        # <-- Change this
 GITHUB_EMAIL="viswavasanth2002@gmail.com"         # <-- Change this
 # =================================
 
-# Step 1: Install GitHub CLI if missing
-if ! command -v gh &> /dev/null; then
-    echo "GitHub CLI (gh) not found. Installing..."
-    sudo apt update
-    sudo apt install -y curl git
-    curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
-      gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg
-    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | \
-      sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-    sudo apt update
-    sudo apt install -y gh
-fi
+# # Step 1: Install GitHub CLI if missing
+# if ! command -v gh &> /dev/null; then
+#     echo "GitHub CLI (gh) not found. Installing..."
+#     sudo apt update
+#     sudo apt install -y curl git
+#     curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
+#       gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg
+#     echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | \
+#       sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+#     sudo apt update
+#     sudo apt install -y gh
+# fi
 
-# Step 2: Authenticate GitHub CLI
-if ! gh auth status &>/dev/null; then
-    echo "Please authenticate with GitHub CLI:"
-    gh auth login
-fi
+# # Step 2: Authenticate GitHub CLI
+# if ! gh auth status &>/dev/null; then
+#     echo "Please authenticate with GitHub CLI:"
+#     gh auth login
+# fi
 
-# Step 3: Create GitHub Repo
-echo "Creating remote repo on GitHub..."
-gh repo create "$REPO_NAME" --$VISIBILITY --confirm
+# # Step 3: Create GitHub Repo
+# echo "Creating remote repo on GitHub..."
+# gh repo create "$REPO_NAME" --$VISIBILITY --confirm
 
-# Step 4: Git setup
-echo "Initializing local Git repo..."
-git init
-git config --global credential.helper store
-git config --global user.name "$GITHUB_USERNAME"
-git config --global user.email "$GITHUB_EMAIL"
+# # Step 4: Git setup
+# echo "Initializing local Git repo..."
+# git init
+# git config --global credential.helper store
+# git config --global user.name "$GITHUB_USERNAME"
+# git config --global user.email "$GITHUB_EMAIL"
 
-git add .
-git commit -m "$COMMIT_MESSAGE"
+# git add .
+# git commit -m "$COMMIT_MESSAGE"
 git branch -M main
 
 # Step 5: Set remote & push
